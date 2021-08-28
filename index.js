@@ -107,6 +107,7 @@ botver = '1.0.0' // Versi Bot ( CO-PASS TEAM )
 numbernye = '0' // Whatsapp Numbers ( Hexagon )
 waktu = '-' // Waktu Fiturs Online / Offline ( Hexagon )
 alasan = '-' // Alasan Fiturs Online / Offline ( Hexagon )
+deflt = "..........c.....com" // Default Link ( CO-PASS TEAM )
 ownerNumber = [`${owner}@s.whatsapp.net`] // Numbers Owner ( Hexagon )
 const X = "❌" // Tictactoe ( CO-PASS TEAM & Lolhuman )
 const O = "⭕️" // Tictactoe ( CO-PASS TEAM & Lolhuman )
@@ -1085,7 +1086,6 @@ if (!mek.key.fromMe && !isOwner) return
 		linkly = ".ly" // Anti Link ( CO-PASS TEAM )
 		linkhttp = "http" // Anti Link ( CO-PASS TEAM )
 		linkwa = "://chat.whatsapp.com" // Anti Link Group Whatsapp ( CO-PASS TEAM )
-		deflt = "..........c.....com" // Default Link ( CO-PASS TEAM )
 if (args[0] === "com") {
 linknye = `${linkcom}`
 freply('Succes change antilink com')
